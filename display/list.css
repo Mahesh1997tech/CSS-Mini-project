@@ -1,0 +1,40 @@
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+/* main{
+    background-color: aqua;
+    width: 50%;
+} */
+/* p{
+    background-color: lightgray;
+    
+}
+.opposite{
+    background-color: black;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 4rem;
+    margin-top: 100px;
+    height: 200px;
+} */
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: right;
+    background-color: #333;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin-inline: 0.5rem;
+    padding: 10px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover,li a :focus{
+    background-color: blue;
+}
