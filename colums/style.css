@@ -20,3 +20,9 @@ body{
     break-inside: avoid;
     break-before: column;
 }
+.quotes{
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    column-span: all;
+}

@@ -1,0 +1,49 @@
+body{
+    height:100vh ;
+
+}
+.outer{
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+}
+.inner{
+    border: 2px solid blue;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    
+
+}
+.absolute{
+    background: yellowgreen;
+    height: 20vw;
+    width: 30vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.relative{
+    background: yellow;
+    height: 25vw;
+    width: 30vh;
+    position: relative;
+    top: 10px;
+}
+.fixed{
+    background: red;
+    height: 25vh;
+    width: 25vw;
+    position: fixed;
+    top: -100px;
+}
+.sticky{
+    background: navajowhite;
+    height: 25vh;
+    width: 25vw;
+    position: sticky;
+    top: 0;
+}
